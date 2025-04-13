@@ -1,4 +1,15 @@
 module.exports = {
-  reactStrictMode: true,// Enable SWC minifier for production build
+  experimental: {
+    appDir: true,  // Enable experimental features if necessary
+  },
+  async redirects() {
+    return [
+      {
+        source: '/old-url',
+        destination: '/new-url',
+        permanent: true,
+      },
+    ]
+  },
 };
 

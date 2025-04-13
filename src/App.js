@@ -66,7 +66,7 @@ function App() {
 
   return (
     <div className="container">
-      <h1>Emma's 70.3 Training Plan – Week 1</h1>
+      <h1>Emma 70.3 Training Plan – Week 1</h1>
 
       <div className="progress-container">
         <label>Progress:</label>
